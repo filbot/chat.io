@@ -9,14 +9,14 @@ app.get("/", function(req, res) { // route setup using render for jade view
     res.render("page");
 });
 
-// socket.io connection handler
-io.socket.on('connection', function (socket) {
-    socket.emit('message', { message: 'welcome to the chat' });
-    socket.on('send', function (data) {
-        io.socket.emit('message', data);
-    });
-});
-
 app.use(express.static(__dirname + '/public')); // ???
 var io = require('socket.io').listen(app.listen(port)); // set port for socket.io
 console.log("Listening on port " + port); // send to stnd out
+
+// socket.io connection handler
+io.sockets.on('connection', function (socket) {
+    socket.emit('message', { message: 'welcome to the chat' });
+    socket.on('send', function (data) {
+        io.sockets.emit('message', data);
+    });
+});
