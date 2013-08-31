@@ -16,6 +16,7 @@ window.onload = function () {
                 html += messages[i] + '<br />';
             }
             content.innerHTML = html;
+            content.scrollTop = content.scrollHeight;
         } else {
             console.log("There is a problem:", data);
         }
@@ -26,13 +27,10 @@ window.onload = function () {
             alert("Please type your name!");
         } else {
             var text = field.value;
-            socket.emit('send', { message: text });
+            socket.emit('send', { message: text, username: name.value });
+            field.value = "";
         }
 
     };
 
-    content.innerHTML = html;
-    content.scrollTop = content.scrollHeight;
-    socket.emit('send', { message: text, username: name.value });
-    field.value = "";
 };
