@@ -1,6 +1,8 @@
-var express = require ("express"); // setup for express app
-var app = express (); // assigning express to "app" variable
-var port = 3700; // assigning port number
+var app = require ('express'); // setup for express app
+var server = require ('http').createServer(app);
+var io = require ('socket.io').listen(server); // setup for socket.io
+
+server.listen(80);
 
 app.set('views', __dirname + '/tpl'); // jade views directory
 app.set('view engine', "jade"); // specifying jade as the templating engine
@@ -10,8 +12,6 @@ app.get("/", function(req, res) { // route setup using render for jade view
 });
 
 app.use(express.static(__dirname + '/public')); // ???
-var io = require('socket.io').listen(app.listen(port)); // set port for socket.io
-console.log("Listening on port " + port); // send to stnd out
 
 // socket.io connection handler
 io.sockets.on('connection', function (socket) {
