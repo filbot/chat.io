@@ -1,7 +1,7 @@
 window.onload = function () {
 
     var messages = [];
-    var socket = io.connect('http://localhost:3700');
+    var socket = io.connect('http://filbot-chat.jit.su');
     var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");
@@ -48,15 +48,5 @@ window.onload = function () {
             field.value = "";
         }
     };
-
-
-
-    // var sendMessage = function () {
-    //     field.keyup(function(e) {
-    //         if(e.keyCode === 13) {
-    //             sendMessage();
-    //         }
-    //     });
-    // };
 
 };
