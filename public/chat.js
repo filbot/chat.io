@@ -20,7 +20,7 @@ window.onload = function () {
             messages.push(data.message);
             var html = '';
             for( i = 0; i < messages.length; i++) {
-                html += '<div class="message-container">';
+                html += '<div class="message-container animated fadeInUp">';
                 html += '<div class="who">' + (messages[i].username ? messages[i].username : '&#128100;') + '</div>';
                 html += '<div class="chat">';
                 html += '<div class="message">' + messages[i] + '</div>';
