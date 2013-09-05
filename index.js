@@ -1,4 +1,5 @@
-var app = require ('express'); // setup for express app
+var express = require ('express'); // setup for express app
+var app = express();
 var server = require ('http').createServer(app);
 var io = require ('socket.io').listen(server); // setup for socket.io
 
