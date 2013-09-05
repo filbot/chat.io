@@ -3,6 +3,10 @@ var app = express();
 var server = require ('http').createServer(app);
 var io = require ('socket.io').listen(server); // setup for socket.io
 
+// Dev
+// server.listen(4000);
+
+// Production
 server.listen(80);
 
 app.set('views', __dirname + '/tpl'); // jade views directory
