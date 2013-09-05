@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"key",
+				"keyCode"
+			],
+			[
+				"send",
+				"sendMessage"
+			],
+			[
 				"mar",
 				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"time",
+				"timeStamp"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ba",
+				"background-color"
 			],
 			[
 				"pa",
@@ -13,18 +49,18 @@
 			],
 			[
 				"bor",
-				"border-right"
+				"border-radius"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"me",
+				"messages"
 			],
 			[
 				"al",
-				"text-align"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"te",
 				"text-align"
 			],
 			[
@@ -36,10 +72,6 @@
 				"li	Tag"
 			],
 			[
-				"back",
-				"background-image"
-			],
-			[
 				"con",
 				"controller"
 			],
@@ -48,24 +80,12 @@
 				"input"
 			],
 			[
-				"co",
-				"color"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
 				"bak",
 				"background-size"
 			],
 			[
 				"hea",
 				"header	Tag"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"over",
@@ -86,10 +106,6 @@
 			[
 				"fa",
 				"facebook"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"le",
@@ -363,9 +379,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 49.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -403,10 +423,6 @@
 				"TidyHTML"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
@@ -439,6 +455,20 @@
 	},
 	"file_history":
 	[
+		"/Users/filipadamczyk/Sites/filbot/chat.io/public/page.css",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/tpl/page.jade",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/public/chat.js",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/index.js",
+		"/Users/filipadamczyk/Downloads/webfontkit-20130901-134546/stylesheet.css",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/tpl/page.css",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/public/reset.css",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/view/page.css",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/view/page.html",
+		"/Users/filipadamczyk/Sites/filbot/chat.io/package.json",
+		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/filipadamczyk/Sites/filbot/flare/web/pages/login.html",
 		"/Users/filipadamczyk/Sites/filbot/flare/web/pages/signup.html",
 		"/Users/filipadamczyk/Sites/filbot/flare/web/js/app.js",
@@ -468,7 +498,6 @@
 		"/Users/filipadamczyk/Sites/filbot/flare/web/partials/footer.html",
 		"/Users/filipadamczyk/Sites/filbot/flare/web/css/style.scss",
 		"/Users/filipadamczyk/Sites/filbot/flare/web/css/_login.scss",
-		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/filipadamczyk/Sites/filbot/personal/index.html",
 		"/Users/filipadamczyk/Sites/subatomic/adobe-dps/partials/main.html",
 		"/Users/filipadamczyk/Sites/subatomic/adobe-dps/css/_global.scss",
@@ -553,20 +582,7 @@
 		"/Users/filipadamczyk/Sites/subatomic/layout-examples/css/inuit.css/_defaults.scss",
 		"/Users/filipadamczyk/Sites/subatomic/layout-examples/index.html",
 		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/web/index.html",
-		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/HipsterIpsum/Hipster Ipsum.sublime-settings",
-		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/HipsterIpsum/README.mdown",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/web/lib/n2/components/smart-image/smart-image.js",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/web/sections/appshell/layout-templates/column-test/column-test.html",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/web/sections/appshell/layout-templates/column-test/_column-test.scss",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/web/sections/appshell/layout-templates/layout01/_layout01.scss",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/dist/lib/inuit/objects/_columns.scss",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/dist/styles/src/_vars.scss",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/dist/lib/inuit/generic/_mixins.scss",
-		"/Users/filipadamczyk/Sites/subatomic/n2-appshells/n2-appshells.sublime-project",
-		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/User/Soda Dark 3.sublime-theme",
-		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/User/Soda Dark.sublime-theme",
-		"/Users/filipadamczyk/Desktop/Soda Dark.sublime-theme",
-		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/Users/filipadamczyk/Library/Application Support/Sublime Text 3/Packages/HipsterIpsum/Hipster Ipsum.sublime-settings"
 	],
 	"find":
 	{
@@ -594,6 +610,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"port",
+			"entypo-webfont",
+			"Helvetica",
+			"span",
 			"68",
 			"1000",
 			"z-index",
@@ -717,11 +737,7 @@
 			"instagram",
 			"projects",
 			"$use-markup-fix",
-			"214x163",
-			"300x225",
-			"200x150",
-			"...",
-			"desk--two-thirds"
+			"214x163"
 		],
 		"highlight": true,
 		"in_selection": false,
